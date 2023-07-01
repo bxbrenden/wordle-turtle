@@ -22,8 +22,9 @@ let changeTitle = () => {
   // Change the title from "Wordle" to "Turtle"
   setTimeout(function() {
     titleNodes = document.querySelectorAll("div[class*=\"AppHeader-module_title\"]")
-    titleNodes[0].textContent = "Turtle"
+    titleNodes[0].textContent = "Turtle, Turtle"
   }, timeout)
+
 }
 
 let deleteAdsArea = () => {
