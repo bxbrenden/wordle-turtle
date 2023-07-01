@@ -1,4 +1,5 @@
 # wordle-turtle
+![Animated gif of the Turtle character](https://github.com/bxbrenden/wordle-turtle/blob/main/assets/wordle-turtle.gif)
 
 A Firefox extension that came to me in a dream.
 
