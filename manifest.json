@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Wordle-Turtle",
+  "version": "0.1.0",
+
+  "description": "Adds a \"beloved\" turtle character to a word game",
+
+  "icons": {
+    "48": "icons/wordle-turtle-icon-48.png",
+    "96": "icons/wordle-turtle-icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.nytimes.com/games/*"],
+      "js": ["wordleTurtle.js"]
+    }
+  ]
+}
+
