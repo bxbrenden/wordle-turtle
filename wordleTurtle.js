@@ -34,11 +34,26 @@ let deleteAdsArea = () => {
   }, 3000)
 }
 
+let addTurtleGif = () => {
+  setTimeout(function() {
+    rows = document.querySelectorAll("div[aria-label*=\"Row\"]")
+    if (rows.length > 1) {
+      for (row of rows) {
+        for (const i of Array(5).keys()) {
+          tile = row.childNodes[i].childNodes[0]
+          tile.innerHTML = "<div><img src=\"https://media.tenor.com/c3RtOpdQTtoAAAAC/dana-carvey-turtle-face.gif\" width=57 height=57 style=\"border: 2px solid gray;\"></div>"
+        }
+      }
+    }
+  }, timeout)
+}
+
 let wordleTurtle = () => {
   clickPlayButton()
   closeHowToPlay()
   changeTitle()
   deleteAdsArea()
+  addTurtleGif()
 }
 
 setTimeout(wordleTurtle, timeout)
