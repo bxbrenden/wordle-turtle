@@ -26,10 +26,18 @@ let changeTitle = () => {
   }, timeout)
 }
 
+let deleteAdsArea = () => {
+  setTimeout(function() {
+    adsArea = document.getElementById("top")
+    adsArea.remove()
+  }, 3000)
+}
+
 let wordleTurtle = () => {
   clickPlayButton()
   closeHowToPlay()
   changeTitle()
+  deleteAdsArea()
 }
 
 setTimeout(wordleTurtle, timeout)
