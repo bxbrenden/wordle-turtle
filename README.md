@@ -7,7 +7,7 @@ A Firefox extension that came to me in a dream.
 I do the Wordle every morning right when I wake up.
 While I was still dreaming, my brain somehow mish-mashed "Wordle" together with the phrase "Turtle, Turtle" from [The Master of Disguise](https://en.wikipedia.org/wiki/The_Master_of_Disguise).
 
-I imagined a Firefox extension that would replace every letter tile with an animated gif of Dana Carvey as the turtle character.
+I imagined a Firefox extension that would replace every letter tile with an [animated gif of Dana Carvey as the turtle character](https://media.tenor.com/c3RtOpdQTtoAAAAC/dana-carvey-turtle-face.gif).
 
 I woke up laughing, so I sat down and prototyped it. It works poorly (using the JavaScript `setTimeout` function blindly) and will probably break soon, but I gave myself a good chuckle.
 
