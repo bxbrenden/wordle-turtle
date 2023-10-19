@@ -21,7 +21,7 @@ let closeHowToPlay = () => {
 let changeTitle = () => {
   // Change the title from "Wordle" to "Turtle"
   setTimeout(function() {
-    titleNodes = document.querySelectorAll("div[class*=\"AppHeader-module_title\"]")
+    titleNodes = document.querySelectorAll("h1[class*=\"AppHeader-module_title\"]")
     titleNodes[0].textContent = "Turtle, Turtle"
   }, timeout)
 
@@ -29,7 +29,7 @@ let changeTitle = () => {
 
 let deleteAdsArea = () => {
   setTimeout(function() {
-    adsArea = document.getElementById("top")
+    adsArea = document.getElementById("ad-top")
     adsArea.remove()
   }, 3000)
 }
